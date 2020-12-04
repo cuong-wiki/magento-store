@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2013-2017 Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+     
+        
+        
+      
+        <css src="css/bootstrap.css" rel="stylesheet" type="text/css"  />
+        <css src="css/style.css" rel="stylesheet" type="text/css"  />
+        <css src="css/font-awesome.css" rel="stylesheet" type="text/css"  />
+        <css src="css/my-style.css" rel="stylesheet" type="text/css"  />
+        <css src="css/skdslider.css" rel="stylesheet" type="text/css"  />
+    </head>
+    <body>
+        
+           <referenceContainer name="header.panel" htmlClass = "header">
+                <block class="Magento\Framework\View\Element\Template" name="header.mini.container" template="Magento_Theme::html/header.phtml"/>
+            </referenceContainer>
+
+            <referenceBlock name="skip_to_content" remove="true" />
+            <referenceBlock name="header.links" remove="true" />
+            <referenceBlock name="top.search" remove="true" />
+            <referenceBlock name="minicart" remove="true" />
+            <referenceContainer name="compare-link-wrapper" remove="true"  />
+
+            
+        
+            <referenceBlock name="footer_links" template="Magento_Theme::html/footer.phtml"/>
+
+            <referenceBlock name="form.subscribe" remove="true" />
+          
+    </body>
+</page>

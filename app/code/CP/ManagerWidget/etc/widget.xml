@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<widgets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:helloworld:Magento_Widget:etc/widget.xsd">
+	<widget class="CP\ManagerWidget\Block\Widget\HomePage" id="CP_Homepage_Widget">
+		<label>Home Page</label>
+		<description>widget home page</description>
+		
+	</widget>
+</widgets>
